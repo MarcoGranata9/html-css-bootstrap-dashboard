@@ -25,6 +25,7 @@ img {
 
 main {
     height: calc(100% - 80px);
+    background-color: #F8F9FA;
 }
 
 /* Sidebar */
