@@ -29,6 +29,7 @@ main {
     width: 70px;
     background-image: url(../img/sidebar-bg.png);
     background-color: #12293E;
+    flex-shrink: 0;
 }
 
 .sidebar i {
