@@ -11,7 +11,7 @@ img {
 
 /* Header */
 
-header {
+.nav {
     /* debug */
     height: 80px;
     background-color: lightblue;
@@ -64,6 +64,11 @@ main {
 /* Dashboard */
 
 .dashboard {
+    overflow-y: auto;
     /* debug */
     background-color: lightseagreen
+}
+
+.header-dash {
+    background-color: #1B72E8;
 }
