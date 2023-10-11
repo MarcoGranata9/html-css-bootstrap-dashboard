@@ -17,25 +17,47 @@ header {
     background-color: lightblue;
 }
 
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
 /* Main */
 
 main {
     height: calc(100% - 80px);
-    /* debug */
-    background-color: lightgreen;
 }
 
 /* Sidebar */
 
 .sidebar {
-    width: 100px;
-    /* debug */
-    background-color: lightcoral;
+    width: 70px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #12293E;
+}
+
+.sidebar i {
+    font-size: 20px;
+    color: white;
+}
+
+.sidebar span {
+    color: white;
+    display: none;
+}
+
+.equalizer {
+    width: 30px;
+    height: 30px;
 }
 
 @media screen and (min-width: 992px) {
     .sidebar {
-        width: 200px;
+        width: 150px;
+    }
+
+    .sidebar span {
+        display: inline-block;
     }
 }
 
