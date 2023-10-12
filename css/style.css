@@ -96,6 +96,17 @@ table img {
     height: 40px;
 }
 
+/* Offcanvas form */
+.offcanvas {
+    width: 100% !important;
+}
+
+@media screen and (min-width: 992px) {
+    .offcanvas {
+        width: 50% !important;
+    }        
+}
+
 .header-dash {
     background-color: #1B72E8;
 }
