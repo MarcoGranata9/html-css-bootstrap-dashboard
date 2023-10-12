@@ -51,9 +51,16 @@ main {
     display: none;
 }
 
-.equalizer {
-    width: 30px;
-    height: 30px;
+.padding-stats {
+    padding-right: 7.5px;
+}
+
+.padding-house {
+    padding-right: 2.5px;
+}
+
+.padding-gear {
+    padding-right: 5px;
 }
 
 @media screen and (min-width: 992px) {
