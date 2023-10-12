@@ -24,7 +24,7 @@
     <div class="wrapper">
         <!-- Header -->
         <header class="nav">
-            <nav class="navbar flex-grow-1">
+            <!-- <nav class="navbar flex-grow-1">
                 <div class="container-fluid">
                     <a href="" class="navbar-brand d-lg-none"><img class="logo" src="img/mobile-logo.png" alt=""></a>
                     <a href="" class="navbar-brand d-none d-lg-inline-block"><img src="img/logo.svg" alt=""></a>
@@ -56,6 +56,38 @@
                         </li>
                     </ul>
                 </div>
+            </nav> -->
+            <nav class="d-flex align-items-center justify-content-between w-100">
+                <!-- Logo -->
+                  <div>
+                    <a href="" class="d-lg-none"><img class="logo" src="img/mobile-logo.png" alt=""></a>
+                    <a href="" class="d-none d-lg-inline-block p-2"><img src="img/logo.svg" alt=""></a>
+                  </div>
+                <!-- /Logo -->
+
+                <!-- Search bar -->
+                <div class="flex-grow-1 d-flex align-items-center bg-secondary-subtle rounded p-2 ms-3 me-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input placeholder="Prova a cercare: Lezioni di Laravel" class="search flex-grow-1 border-0 bg-secondary-subtle rounded p-1" type="search">
+                </div>
+                <!-- /Search bar -->
+
+                <!-- Button list -->
+                <ul class="d-flex list-unstyled mb-0">
+                    <li class="p-2 d-none d-lg-block">
+                        <a><i class="fa-solid fa-list text-secondary"></i></a>
+                    </li>
+                    <li class="p-2 d-none d-lg-block">
+                        <a><i class="fa-solid fa-circle-question text-secondary"></i></a>
+                    </li>
+                    <li class="p-2 d-none d-lg-block">
+                        <a><i class="fa-solid fa-ellipsis-vertical text-secondary"></i></a>
+                    </li>
+                    <li class="p-2 text-warning me-2">
+                        <a><i class="fa-solid fa-bell"></i></a>
+                    </li>
+                </ul>
+                <!-- /Button list -->
             </nav>
         </header>
         <!-- /Header -->
@@ -94,12 +126,13 @@
                             <div class="col-sm-12 col-md-4 order-md-1">
                                 <p>Nuovo Studente</p>
                             </div>
+
                             <div class="col-sm-12 col-md-4">
                                 <h3 class="d-inline-block">Boolean</h3>
                                 <span class="badge rounded-pill text-bg-dark bg-opacity-50">Piano Blaze</span> <br>
                                 <span class="badge rounded-pill text-bg-dark bg-opacity-50">3 app</span>
-
                             </div>
+
                             <div class="col-s m-12 col-md-4">
                                 <p>Studenti online negli ultimi 30 minuti</p>
                                 <h3>125</h3>
@@ -237,7 +270,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                data-bs-target="#collapseOne" aria-expanded="false"
                                                 aria-controls="collapseOne">
                                                 Come aggiungere un nuovo studente?
                                             </button>
