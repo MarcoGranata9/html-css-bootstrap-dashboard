@@ -63,6 +63,12 @@ main {
     padding-right: 5px;
 }
 
+.opacity:hover {
+    background-color: rgb(222, 222, 222);
+    opacity: 80%;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 992px) {
     .sidebar {
         width: 150px;
