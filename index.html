@@ -126,12 +126,88 @@
                         <div class="row flex-row text-white">
                             <div class="col-sm-12 col-md-4 order-md-1">
                                 <p>Nuovo Studente</p>
+                                <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                                <!-- Offcanvas form -->
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <form action="">
+                                            <div class="mb-3">
+                                                <label for="name">Nome</label>
+                                                <input class="form-control" id="name" type="text">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="surname">Cognome</label>
+                                                <input class="form-control" id="surname" type="text">
+                                            </div>
+
+                                            <label for="">Email</label>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input id="email" type="email" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                            
+                                            <div class="mb-3">
+                                                <label for="password">Password</label>
+                                                <input class="form-control" id="password" type="text">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="address">Indirizzo</label>
+                                                <input class="form-control" id="address" type="text">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="city">Città</label>
+                                                <input class="form-control" id="city" type="text">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="state">Stato</label>
+                                                <select class="form-select" name="" id="state">
+                                                    <option value="">Scegli...</option>
+                                                    <option value="">Scegli...</option>
+                                                    <option value="">Scegli...</option>
+                                                </select> 
+                                            </div>
+                                            
+                                            <div class="mb-3">
+                                                <label for="cap">CAP</label>
+                                                <input class="form-control" type="number" id="cap">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="formFile" class="form-label">Foto</label>
+                                                <input class="form-control" type="file" id="formFile">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <input type="checkbox">
+                                                <label for="">Seleziona per proseguire</label>
+                                            </div>
+                                            
+                                            <div class="mb-3">
+                                                <button class="btn btn-primary">Salva</button>
+                                                <button class="btn btn-warning" >Svuota</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                  </div>
                             </div>
 
                             <div class="col-sm-12 col-md-4">
                                 <h3 class="d-inline-block">Boolean</h3>
                                 <span class="badge rounded-pill text-bg-dark bg-opacity-50">Piano Blaze</span> <br>
                                 <span class="badge rounded-pill text-bg-dark bg-opacity-50">3 app</span>
+                                <i class="fa-solid fa-angles-right"></i>
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-50 d-lg-none">+</span>
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-50 d-none d-lg-inline-block">Boolean mobile app</span>
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-50 d-none d-lg-inline-block">Boolean web app</span>
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-50 d-none d-lg-inline-block">Boolean blog app</span>
                             </div>
 
                             <div class="col-s m-12 col-md-4">
